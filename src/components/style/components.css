@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee&family=Luckiest+Guy&family=Metal+Mania&family=Momo+Signature&family=Noto+Sans+Sora+Sompeng:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Righteous&family=Rubik+Broken+Fax&family=Sixtyfour&display=swap");
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background-color: #1e293b;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo h2 {
+  color: white;
+  margin: 0;
+  margin-left: 50px;
+  font-family: "Righteous";
+}
+
+.nav-links {
+  display: flex;
+  gap: 30px;
+  margin-right: 50px;
+  list-style: none;
+  font-family: "Righteous";
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.nav-links a:hover {
+  color: #38bdf8;
+}

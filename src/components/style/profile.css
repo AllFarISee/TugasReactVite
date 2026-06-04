@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee&family=Luckiest+Guy&family=Metal+Mania&family=Momo+Signature&family=Noto+Sans+Sora+Sompeng:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik+Broken+Fax&family=Sixtyfour&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bungee&family=Luckiest+Guy&family=Metal+Mania&family=Momo+Signature&family=Noto+Sans+Sora+Sompeng:wght@400..700&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Righteous&family=Rubik+Broken+Fax&family=Sixtyfour&display=swap");
+
+.profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  padding: 50px 50px;
+}
+
+.profile-image img {
+  width: 320px;
+  height: 320px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid #38bdf8;
+  box-shadow: 0 10px 30px rgba(56, 189, 248, 0.3);
+}
+
+.profile-content {
+  max-width: 600px;
+  font-family: 'Bungee';
+}
+
+.profile-content h1 {
+  font-size: 2rem;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.name {
+    color: #38bdf8;
+}
+
+.date {
+  display: flex;
+  gap: 10%;
+  font-size: 1.2rem;
+  color: #cbd5e1;
+  margin-bottom: 10px;
+  font-family: 'Philosopher';
+}
+
+.age {
+  background-color: #38bdf8;
+  padding: 2px 5px 2px 5px;
+  border-radius: 4px;
+  color: #1e293b;
+}
+
+.job {
+  font-size: 1.3rem;
+  color: #e2e8f0;
+  margin-bottom: 25px;
+  font-family: 'Philosopher';
+}
+
+.profile-btn {
+  padding: 15px 20px;
+  border: none;
+  border-radius: 10px;
+  background: #38bdf8;
+  color: #1e293b;
+  font-size: 1rem;
+  font-weight: 900;
+  cursor: pointer;
+  transition: 0.3s;
+  font-family: 'Philosopher';
+}
+
+.profile-btn:hover {
+  transform: translateY(-3px);
+}
+
+@media (max-width: 768px) {
+  .profile {
+    flex-direction: column;
+    text-align: center;
+    padding: 30px;
+  }
+
+  .profile-content h1 {
+    font-size: 2rem;
+  }
+
+  .profile-image img {
+    width: 250px;
+    height: 250px;
+  }
+}
