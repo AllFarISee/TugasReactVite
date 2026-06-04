@@ -1,5 +1,5 @@
 ## Basic Project React + Vite
-<img width="605" height="444" alt="Profile1" src="https://github.com/user-attachments/assets/ad1be0cd-b4cb-4033-a633-c2378c0e1a19" />
+<img width="600" height="440" alt="Profile1" src="https://github.com/user-attachments/assets/ad1be0cd-b4cb-4033-a633-c2378c0e1a19" />
 
 
     Name  : Alfarisi Azhar
